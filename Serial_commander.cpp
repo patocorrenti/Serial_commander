@@ -12,6 +12,7 @@ Serial_commander::Serial_commander( int enable_write, int package_life ){
   FIXME: hay que ver como se hace para pasar esto del lado del usuario
   COPY THIS FUNCTIONS IN YOUR PROG. AFTER THE LOOP
 */
+
 void Serial_commander::sc_quick_command( char action ){
 
   //ADD here your own cases to excecute quick commands with a single char
@@ -25,6 +26,7 @@ void Serial_commander::sc_quick_command( char action ){
   }
 
 }
+
 
 // this function is excecuted in the loop
 void Serial_commander::process_serial(){
